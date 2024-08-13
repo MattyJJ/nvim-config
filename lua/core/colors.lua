@@ -9,5 +9,14 @@ function SetColor(color, transparent)
 	end
 end
 
-SetColor()
+Colors = {}
+Colors.gruvbox = 'gruvbox'
+Colors.rosepine = 'rose-pine'
+Colors.vscode = 'vscode'
+Colors.habamax = 'habamax'
+Colors.catppuccin = 'catppuccin'
+Colors.tokyonight = 'tokyonight'
+Colors.oxocarbon = 'oxocarbon'
+Colors.nordic = 'nordic'
 
+SetColor(Colors.oxocarbon)
